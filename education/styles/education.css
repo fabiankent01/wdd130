@@ -1,12 +1,62 @@
-body {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: center;
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: Arial;
+    --paragraph-font: Arial;
 }
+body {
+    background-color: pink;
+}
+
 img {
     display: block;
     margin: 0 auto;
     max-width: 300px;
-  }
+}
+h1 {
+    font-size: 29px;
+    font-family: var(--heading-font);
+    color: white;
+}
+h2 {
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--heading-font);
+    color: white;
+}
+h3 {
+    padding-bottom: 2em;
+    text-align: center;
+    font: arial;
+    color: white;
+}
+h4 {
+    padding-top: 0em;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 29px;
+    font: arial;
+    color: white;
+}
+h5 {
+    padding-bottom: 0em;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--heading-font);
+    color: Black;
+}
+#fi1 {
+    padding-right: 133px;
+}
+#fi2 {
+    padding-right: 260px;
+}
+#fi3 {
+    padding-right: 5px;
+}
+  header {
+    padding: 1em;
+    text-align: center;
+    font: arial;
+    color: white;
+}
