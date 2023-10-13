@@ -1,18 +1,26 @@
 #logo {
-  width: 80px
+  width: 100px
+}
+#logo_link {
+  padding-top: 70px;
+  justify-self: center;
+  align-self: center;
 }
 .home-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
   text-align: center;
   color: rgba(202, 12, 12, 0.795);
+  margin-top: 10px;
 }
 #content {
   max-width: 1600px;
   margin: 0 auto;
 }
 nav a {
-  color: white;
-  text-align: center;
   text-decoration: none;
+  color: #fcfbfb;
+  padding: 35px;
 }
 nav a:hover {
   background-color: rgba(202, 12, 12, 0.795);
@@ -26,7 +34,9 @@ nav a:hover {
 }
 h4 {
   text-align: center;
-  color: rgba(1, 126, 143, 0.925);
+  color: rgb(3, 11, 56);
+  padding-bottom: 50px;
+  line-height: 0em;
 }
 .button-box {
   text-align: center;
@@ -34,50 +44,90 @@ h4 {
 main section {
   text-align: center;
 }
+main section img {
+  box-sizing: border-box;
+}
 #background {
-  background-color: rgba(1, 126, 143, 0.925);
+  background-color: rgba(202, 12, 12, 0.795);
   height: 725px
 }
 body {
   background-color: #fcfbfb; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
-  background-color: rgba(1, 126, 143, 0.925);
+  background-color: rgb(3, 11, 56);
+  padding-bottom: 15px;
 }
 .book, .join {
   background-color: rgba(202, 12, 12, 0.795);
   color: rgb(255, 255, 255);
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover, .join:hover {
   background-color: black;
   color: white;
 }
+h2 {
+  margin: 0;
+  padding-bottom: 70px;
+}
 .msg {
-  background-color: rgb(29, 106, 129);
+  background-color: rgb(3, 11, 56);
+  line-height: 2em;
+  padding: 35px;
 }
 .msg h2 {
+  font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
+  padding-bottom: 3px;
 }
 .msg p{
   color: rgb(245, 244, 243);
+  padding-bottom: 5px;
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 .logo {
   width: 8px;
 }
+.rivers-card, .camping-card {
+  margin: 200px;
+  padding-top: 35px;
+}
+.rapids-card{
+  margin: 200px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.card-img {
+  border: 10px solid rgba(202, 12, 12, 0.795);
+}
+.mountains {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
 footer {
-  background-color: rgb(29, 106, 129);
+  background-color: rgb(3, 11, 56);
   color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 footer a {
   color: white;
   text-decoration: none;
 }
 footer a:hover {
-  color:black;
+  color:red;
 }
 footer p {
   font-size: 1.2em;
@@ -85,3 +135,6 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 }  
+footer .social img {
+  padding-top: 15px;
+}
