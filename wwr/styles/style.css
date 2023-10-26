@@ -134,7 +134,7 @@ h2 {
   text-align: center;
 }
 .home-grid img{
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 .rivers-card, .camping-card, .rapids-card {
   margin: 200px 0;
