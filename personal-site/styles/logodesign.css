@@ -88,7 +88,7 @@ h4 {
 }
 .first-writeup{
     margin-top: 30px;
-    padding: 60px 125px;
+    padding: 50px 70px 35px 70px;
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
@@ -101,18 +101,65 @@ h4 {
 }
 .second-writeup{
     margin-top: 30px;
-    padding: 60px 125px;
+    padding: 50px 70px 35px 70px;
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
 }
-.picture-box {
-    background-color: #033650;
-    margin-bottom: 30px;
+#icon{
+    width:70px;
+    margin-left:30px;
+    margin-bottom:-9px;
 }
+.gallery {
+    text-align: left;
+    color:#033650;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+}
+.overflow{
+    margin: 0px 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    max-height: 500px;
+    overflow-y: scroll;
+    text-align: center;
+    border: 10px solid #033650;
+}
+.column {
+    padding:50px 0px;
+}
+.col1:hover{
+    transform:scale(1.1);
+}
+.col2:hover{    transform:scale(1.1);}
+.col3:hover{    transform:scale(1.1);}
+.col4:hover{    transform:scale(1.1);}
+.col5:hover{    transform:scale(1.1);}
+.col6:hover{    transform:scale(1.1);}
+.col7:hover{    transform:scale(1.1);}
+.col8:hover{    transform:scale(1.1);}
+.col9:hover{    transform:scale(1.1);}
+.col0:hover{    transform:scale(1.1);}
+.cul1:hover{ transform:scale(1.1);}
+.cul2:hover{ transform:scale(1.1);}
+.cul3:hover{ transform:scale(1.1);}
+.cul4:hover{ transform:scale(1.1);}
+.cul5:hover{ transform:scale(1.1);}
+.cul6:hover{ transform:scale(1.1);}
+.cul7:hover{ transform:scale(1.1);}
+.cul8:hover{ transform:scale(1.1);}
+.cul9:hover{ transform:scale(1.1);}
+.cul0:hover{ transform:scale(1.1);}
+.cll1:hover{ transform:scale(1.1);}
+
+
 img {
-    width: 250px;
+    width: 30%;
 }
+
 footer {
     font-family: Roboto, Helvetica, sans-serif;
     background-color:#033650;
@@ -142,3 +189,53 @@ footer p {
 .fb:hover {
     fill: #ffc300;
 }
+
+@media screen and (max-width: 900px) {
+    #top, .home-grid {
+        display: block;
+        height: auto;
+    }
+    #top {
+        padding-bottom: 20px;
+    }
+    #top-img {
+        margin-top: 150px;
+        margin-left: 60px;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+    #top-box-msg {
+        display:inline-block;
+        text-align: center;
+        margin-left: -5px;
+    }
+    .logo-box, .web-design-box { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .gallery-box {
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #gallery{
+        margin-left: 1px;
+    }
+    .view-now {
+        margin-left: -6px;
+    }
+    footer {
+        margin-top: 30px;
+    }
+  }

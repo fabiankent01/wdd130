@@ -10,7 +10,7 @@
 <body>
     <div id="content">
     <header>
-        <a id="logo_link" href="index.html">
+        <a id="logo_link" href="site-plan.html">
             <img id="logo" src="images/PIXEL.png" alt="Pixel Craft Logo">
         </a>
         <nav> 
@@ -72,13 +72,36 @@
                     their brand's visual identity.</p>
             </div>
         </section>
-        <section class="picture-box">
-            <div class="photos">
-                <img src="images/rsz_20230919_052831.png" alt="">
-                <img src="images/rsz_20230917_044217.png" alt="">
-                <img src="images/rsz_20220302_151350.png" alt=""> 
-                <img src="images/rsz_20230817_063800.png" alt="">
-                <img src="images/20230331_111417.jpg" alt="">
+        <div class="gallery">
+            <img src="images/images .svg" alt="" id="icon">
+            Design Gallery
+
+        </div>
+          
+        <section class="overflow">
+            <div class="column">
+                <img src="images/images/20230929_202549.png" alt="" class="col1">
+                <img src="images/images/20231125_134409.png" alt="" class="col2">
+                <img src="images/images/20230331_111417.jpg" alt="" class="col3">
+                <img src="images/images/20220302_151350.jpg" alt=""class="col4">
+                <img src="images/images/20221205_141510.jpg" alt=""class="col5">               
+                <img src="images/images/20230817_061537.png" alt=""class="col6">
+                <img src="images/images/20230817_063800.png" alt=""class="col7">
+                <img src="images/images/20230919_052831.png" alt=""class="col8">
+                <img src="images/images/20230917_044217.png" alt=""class="col9">
+                <img src="images/images/20220302_151143~2.jpg" alt=""class="col0">
+                <img src="images/images/20220302_151404~2.jpg" alt=""class="cul1"> 
+                <img src="images/images/20220302_151103~2.jpg" alt=""class="cul2">
+                <img src="images/images/20220302_151127~2.jpg" alt=""class="cul3">
+                <img src="images/images/20220302_151157~2.jpg" alt=""class="cul4">
+                <img src="images/images/20220302_151320~2.jpg" alt=""class="cul5">
+                <img src="images/images/20221206_103838.jpg" alt=""class="cul6">
+                <img src="images/images/20221207_165101.jpg" alt=""class="cul7">
+                <img src="images/images/20221214_111001.jpg" alt=""class="cul8">
+                <img src="images/images/20221224_110230.png" alt=""class="cul9">
+                <img src="images/images/20231102_200339.png" alt=""class="cul0">
+                <img src="images/images/20230413_084528.png" alt=""class="cll1">
+ 
             </div>
         </section>
     </main>
@@ -100,5 +123,17 @@
         </div>
     </footer>
     </div>
+   
+    <script>
+        const element = document.getElementsByClassName("column");
+        let i;
+
+        function four() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "25%";  // IE10
+                elements[i].style.flex = "25%";
+            }
+        }
+    </script>
 </body>    
  </html>
